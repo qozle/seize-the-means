@@ -1,9 +1,7 @@
 const deepai = require("deepai");
 const OAuth = require("oauth-1.0a");
 const crypto = require("crypto");
-const request = require("request");
 const needle = require("needle");
-const fs = require("fs");
 const cheerio = require("cheerio");
 const { htmlToText } = require("html-to-text");
 require("dotenv").config();
